@@ -9,7 +9,13 @@ tiantianxiangshangjt/tiantianxiangshangjt is a ✨ special ✨ repository becaus
 You can click the Preview link to take a look at your changes.
 --->
 Testkey的程序包括
-  ChannelMap声明:
+  ChannelMap声明:layout_connect--pad_numbers--探针卡--测试板卡
   Signal声明：
-  Main program:
+  Main program: 函数声明和调用（C++ & AItest API）
     Programing API
+      theHW.PPMU()
+      theHW.DCL()
+      theHW.SignalMap.SetGroupName()
+      theHW.SignalMap.GetMember()
+      theMgr.SetCurTestName()
+      theMgr.SetCurTestNumber()
