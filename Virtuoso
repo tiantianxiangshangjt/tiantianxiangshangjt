@@ -1,0 +1,33 @@
+启动virtuoso
+    step1: source .cshrc
+    step2: Virtuoso &
+load standard cell 文件
+    step1: 添加库文件： Tools--library path Editor--右击空白库区域--Add librar--Directory--Library--OK
+    step2: 导入文件gds: File--import--Stream--Stream File(name.gds)
+                                              Attach ASCII Tech File :选择对应的库
+                                              load ASCII Tech File: 选择对应的tf文件
+                                              Layer map： 选择对应的图层信息
+快捷键：
+    全屏：shift+F
+    划线：w
+    添加wireName：l
+    添加pin：p
+    进入symbol(子电路)内部：e 退出ctrl+e
+    
+添加skipper
+    step1: 打开cshrc，通过命令：vim .cshrc
+    step2: 添加：ma skipper/2021.12.sp3
+    step3: source .cshrc
+    step4: skipper &
+ load standard cell 文件:
+    step1: 打开gds: File--open
+    step2: 菜单栏打开：load tech and disp
+    step3: 图层查看，界面左侧cell和layer：layers--layers
+                                         layers--cells--tree/list
+ 快捷键：
+    f: 适配大小，显示所有信息
+    k: 显示标尺
+    方向键控制上下左右移动
+   
+                                              
+        
